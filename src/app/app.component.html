@@ -1,3 +1,9 @@
+
+@if(isLoggedIn){
 <main>
   <router-outlet></router-outlet>
 </main>
+}
+@else {
+  <app-login></app-login>
+}
